@@ -1,0 +1,10 @@
+Name:              tptp-to-json
+Version:           0.1
+Description:       Transform tptp-fol syntax into json objects
+License:           WTFPL
+Author:            Yves Müller
+Maintainer:        yves.mueller[at]fu[minus]berlin.de
+Build-Type:        Simple
+Executable:        tptp-to-json
+Main-is:           Main.hs
+Build-Depends:     base, syb, process, logic-TPTP
